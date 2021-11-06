@@ -1,0 +1,12 @@
+
+[gwrite.mod]
+document_start = "(module test (layer F.Cu) (tedit 61868FAA)\n  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)\n    (effects (font (size 1 1) (thickness 0.15)))  )\n  (fp_text value test (at 0 -0.5) (layer F.Fab)\n    (effects (font (size 1 1) (thickness 0.15)))\n  )"
+layer_start = "\n"
+segment_first = "(fp_line (start {x:.3f} {y:.3f})"
+segment_last = "(end {x:.3f} {y:.3f}) (layer B.Cu) (width 0.18))\n"
+document_end = "\n)"
+scale_x = -1
+scale_y = 1
+unit = "mm"
+invert_y = "True"
+info = "Make sure that you have used splitall in vpype"
