@@ -1,5 +1,5 @@
 # vypye_to_kicad
-Miss ussing vpype gcode to generate kicad_mod files  
+Misusing vpype gcode to generate kicad_mod files  
 This is a dirty hack, but i works ( with lots of caveats )  
 1. you ***must*** use `splittall` when reading the file 
 2. you will have to manualy edit the config.toml to fix the line width of the generated file. 
